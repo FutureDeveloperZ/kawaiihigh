@@ -1,7 +1,30 @@
-ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
-ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
- html { height: 100%; }
- body { width: 100%; height: 100%; background: #ffffff; color: #3e3e3e; font-family: 'Quattrocento Sans', sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { 
+    margin: 0; 
+    padding: 0; 
+}
+
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { 
+    margin: 0; 
+    padding: 0; 
+}
+
+ html { 
+     height: 100%; 
+}
+
+ body { 
+     width: 100%; 
+     height: 100%; 
+     background: #ffffff; 
+     color: #3e3e3e; 
+     font-family: 'Quattrocento Sans', sans-serif; 
+     font-size: 16px; 
+     font-weight: 400; 
+     line-height: 25px; 
+     -webkit-font-smoothing: antialiased; 
+     -moz-osx-font-smoothing: grayscale; 
+}
+
  a { color: #b9b9b9; text-decoration: none; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  a:hover { color: #333333; }
  a img, a:hover img { border: none; }
@@ -251,6 +274,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-com-continue-shopping .caret { display: inline-block; margin-top: 2px; }
  .wsite-com-checkout-payment-column, .wsite-com-checkout-summary-column { float: none; width: 100%; }
  }
+
  @media screen and (max-width: 480px) {
  #wsite-com-store .wsite-com-category-subcategory-group .wsite-com-column, #wsite-com-store .wsite-com-category-product-featured-group .wsite-com-column, #wsite-com-store .wsite-com-category-product-group .wsite-com-column { float: none; width: 100% !important; }
  #wsite-com-checkout-list .wsite-com-checkout-item-image, #wsite-com-checkout-summary-list .wsite-com-checkout-item-image { display: none; }
